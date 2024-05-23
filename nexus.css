@@ -1,0 +1,280 @@
+
+body{
+color: black;
+font-size:14px;
+font-weight: 500;
+background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0px 5px;
+    border-radius: 5px;
+    background-color:#00b4d8;
+    
+
+}
+header ul{
+    display: flex;
+    width: 100%;
+   justify-content: space-between;
+   z-index: 10;
+    
+}
+header nav {
+    padding: 2px;
+    background-color: transparent;
+}
+header li {
+    background-color:white;
+    border-radius: 5px;
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    border-style:solid;
+    border-color: #00b4d8;
+    margin: 0px 2px;   
+}
+header a{
+    text-decoration: none;
+    color: #00b4d8;
+    font-weight: bolder;
+}
+#menu{
+    display:none ;}
+
+
+   section{
+    padding:30px 60px;
+    text-align: center;
+   }
+
+.animate{
+       margin-top: 80px;
+       padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+.animate div,.animate h1{
+    flex: 1;
+}
+.animate img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    margin: 50px 0;
+    
+
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav img{
+    border-radius: 50%;
+}
+#signing{
+    margin-left: 0px;
+}
+
+.benefits{
+    text-align: center;
+    height: 100%;
+    
+}
+.benefits div{
+    border-style: inset;
+    border-radius: 10px;
+    border-color: #00b4d8;
+    display: inline-block;
+    margin: 0px 3%;  
+}
+
+.benefits h1{
+    text-align: center;
+}
+
+.benefits img{
+    height: 150px;
+}
+
+.benefits ul{
+    list-style-type: none;
+}
+   
+
+.demo{
+    
+    background-image: linear-gradient(to right, #003049, #00b4d8);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.demo div{
+    display: flex;
+    margin: 10px;
+    justify-content: center;}
+input{
+    padding: 15px;
+    display: block;
+    margin:0px 10px;
+    width: 60%;
+    border-radius: 5px;
+    color: grey;
+    border-style: none;
+    
+}
+.services-section{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.services-offered{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    
+    
+}
+.services-offered button{
+    width:200px ;
+    background-color: #003049;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: white;
+    margin: 20px 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #00b4d8;
+}
+.testimonials{
+    border-style: solid;
+    background-color:#003049;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.testimonies{
+    display: flex;
+    padding: 20px;
+}
+
+footer{
+    padding: 5px;
+    justify-content: center;
+    margin: 0px auto;
+    background-image: linear-gradient(to right, #3d405b, #005f73);
+
+}
+.footer-section{
+    
+    display: flex;
+    text-align: center;
+
+}
+.last-div{
+    margin: 0 auto;
+}
+footer a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+footer button{
+    font-size: 10px;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 2px;
+    background-color:#3d405b;
+}
+
+/*media*/
+
+@media(max-width:550px){
+body{
+    font-size: 12px;
+}
+h1{
+    font-size: 14px;
+}
+h2{
+    font-size: 11px;
+}
+#menu{
+    width:100px;
+}
+
+header nav{
+    display: none;
+}
+.animate img{
+    width: 100%;
+}
+.testimonials{
+    display: none;
+   }
+   .benefits div{
+    border-style: none;
+    display: inline;
+    margin: 0px;
+    color: #14353c;
+    font-weight: bolder;
+    
+}
+.benefits img{
+    height: 50px;
+}
+.demo div{
+    flex-direction: column;
+    align-items: center;  
+}
+
+input{
+    
+    display: block;
+    margin:7px;
+    padding: 5px;
+    width: 50%;  
+}
+#demo-second-div{
+    margin-top: -6px;
+}
+.services-offered{
+    flex-direction: column;
+    padding: 6px;      
+}
+.services-offered button{
+    height:80px ;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.quick-links{
+    display: none;
+}
+}
